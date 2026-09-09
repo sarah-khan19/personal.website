@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarah Khan | Mathematics Student &amp; Aspiring Technologist</title>
+    <meta
+      name="description"
+      content="Sarah Khan is a University of Waterloo Mathematics student combining creativity, problem-solving, and technology. View projects, experience, and résumé."
+    />
+    <meta name="author" content="Sarah Khan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sarah Khan | Mathematics Student &amp; Aspiring Technologist" />
+    <meta
+      property="og:description"
+      content="A digital sketchbook portfolio from a Waterloo Mathematics student exploring art, design, and software."
+    />
+    <meta property="og:locale" content="en_CA" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="logo" href="#home">Sarah Khan</a>
+        <nav class="nav-desktop" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#resume">Résumé</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="visually-hidden">Open menu</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+      <nav id="mobile-nav" class="nav-mobile" aria-label="Mobile">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Résumé</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <p class="cursive hero-kicker">A Digital Sketchbook</p>
+        <h1 class="hero-title">Sarah Khan</h1>
+        <div class="hero-copy">
+          <p class="cursive hero-tagline">Mathematics student. Creative thinker. Future developer.</p>
+          <p class="hero-intro">
+            I’m a University of Waterloo Mathematics student who likes combining creativity, problem-solving, and
+            technology to build things that are useful and a little more interesting than they need to be.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-secondary" href="/Sarah-Khan-Resume.pdf" target="_blank" rel="noreferrer">View Résumé</a>
+            <a class="btn btn-ghost" href="#contact">Let's Connect</a>
+          </div>
+        </div>
+        <aside class="hero-list" aria-label="Animated highlights">
+          <p class="cursive hero-list-label">A Few Things At a Glance</p>
+          <div id="animated-list-root"></div>
+        </aside>
+      </section>
+
+      <section class="section" id="about">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">A Little About Me</p>
+          <h2 class="section-title">About</h2>
+        </header>
+        <div class="about-grid">
+          <article class="paper about-card reveal reveal-left">
+            <p class="cursive note-label">Sketched, Not Templated</p>
+            <div class="stack">
+              <p>
+                I like making things look considered. I also like taking a messy problem, lining up the pieces, and
+                figuring out what actually matters.
+              </p>
+              <p>
+                At Waterloo I’m studying mathematics, which suits the part of me that wants a clean answer. The other
+                part of me still wants colour, composition, and a little bit of play. I’m trying to keep both of those
+                instincts in the same room — especially as I learn to code.
+              </p>
+              <p>
+                I’m organized, I follow through, and I’m comfortable asking questions. I’m looking for internships
+                where I can contribute, learn quickly, and work with people who care about the details.
+              </p>
+            </div>
+          </article>
+          <aside class="currently reveal reveal-right" style="--reveal-delay: 120ms">
+            <p class="cursive">Currently</p>
+            <ul>
+              <li>Mathematics at the University of Waterloo</li>
+              <li>Learning how design thinking and software fit together</li>
+              <li>Open to internships where I can build, research, and grow</li>
+            </ul>
+          </aside>
+        </div>
+
+        <h3 class="make-title reveal">What I like to make</h3>
+        <div class="make-grid">
+          <article class="paper make-card reveal" style="--reveal-delay: 40ms">
+            <p aria-hidden="true">🎨</p>
+            <h3>Create</h3>
+            <p>
+              I enjoy art, visual design, and finding creative ways to express ideas — usually with a sketch first,
+              then a cleaner version later.
+            </p>
+          </article>
+          <article class="paper make-card reveal" style="--reveal-delay: 120ms">
+            <h3>Build</h3>
+            <p>I enjoy programming and using technology to turn an idea into something someone else can actually use.</p>
+          </article>
+          <article class="paper make-card reveal" style="--reveal-delay: 200ms">
+            <h3>Learn</h3>
+            <p>
+              I enjoy picking up new concepts, experimenting, and slowly getting more technically confident without
+              rushing the process.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-labelledby="education-heading">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">Where I’m Studying</p>
+          <h2 class="section-title" id="education-heading">Education</h2>
+        </header>
+        <article class="paper education-card reveal">
+          <p class="cursive" style="color: var(--blue); margin: 0">Index Card</p>
+          <h3>University of Waterloo</h3>
+          <p>Candidate for Bachelor of Mathematics, Honours Mathematics</p>
+          <p>Waterloo, ON · September 2025 – Present</p>
+          <span class="chip">President's Scholarship</span>
+        </article>
+      </section>
+
+      <section class="section" id="experience">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">Thread of Work</p>
+          <h2 class="section-title">Experience</h2>
+        </header>
+        <ol class="timeline">
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <article class="paper job reveal">
+              <div class="job-head">
+                <h3>Web &amp; SEO Consultant</h3>
+                <p class="cursive job-dates">May – Jul 2026</p>
+              </div>
+              <p class="job-org">Community Justice Initiatives</p>
+              <ul>
+                <li>
+                  Audited Community Justice Initiatives' website to evaluate SEO performance and accessibility
+                  compliance.
+                </li>
+                <li>
+                  Identified on-page SEO improvements, including keyword optimization, meta descriptions, and site
+                  structure, to increase organic visibility.
+                </li>
+                <li>
+                  Presented findings and recommendations to support the organization's digital outreach and community
+                  engagement goals.
+                </li>
+              </ul>
+              <ul class="tags">
+                <li>Web Design</li>
+                <li>SEO</li>
+                <li>Accessibility</li>
+                <li>Research</li>
+                <li>Communication</li>
+              </ul>
+            </article>
+          </li>
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <article class="paper job reveal" style="--reveal-delay: 80ms">
+                <p class="cursive job-dates">Oct 2023 – Apr 2024</p>
+              </div>
+              <p class="job-org">Polycultural Immigrant and Community Services · Mississauga, ON</p>
+              <ul>
+                <li>Volunteered weekly at a local community centre tutoring elementary and middle school level math.</li>
+                <li>Tutored 8 students engagingly and effectively, resulting in a 10% average mark increase.</li>
+                <li>Developed lesson plans and identified different teaching methods to cater to specific student needs.</li>
+              </ul>
+              <ul class="tags">
+                <li>Communication</li>
+                <li>Adaptability</li>
+                <li>Teaching</li>
+                <li>Problem Solving</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" id="projects">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">Pieces From the Studio</p>
+          <h2 class="section-title">Projects</h2>
+        </header>
+        <div class="projects">
+          <article class="paper project reveal reveal-left">
+            <p class="cursive project-meta">Client project · September 2026</p>
+            <h3>Customer Segmentation &amp; Journey Analysis — Soulful Colour</h3>
+            <svg class="journey" viewBox="0 0 320 92" aria-hidden="true">
+              <path
+                d="M18 52 C 70 18, 110 78, 160 46 S 250 18, 302 52"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-dasharray="4 6"
+                stroke-linecap="round"
+              />
+              <circle cx="18" cy="52" r="7" fill="#fbf8e4" stroke="currentColor" stroke-width="2" />
+              <circle cx="110" cy="64" r="7" fill="#fbf8e4" stroke="currentColor" stroke-width="2" />
+              <circle cx="198" cy="38" r="7" fill="#fbf8e4" stroke="currentColor" stroke-width="2" />
+              <circle cx="302" cy="52" r="7" fill="#fbf8e4" stroke="currentColor" stroke-width="2" />
+              <text x="18" y="74" text-anchor="middle" font-size="10" fill="#3d4d6e">Interest</text>
+              <text x="110" y="86" text-anchor="middle" font-size="10" fill="#3d4d6e">Research</text>
+              <text x="198" y="60" text-anchor="middle" font-size="10" fill="#3d4d6e">Decision</text>
+              <text x="302" y="74" text-anchor="middle" font-size="10" fill="#3d4d6e">Purchase</text>
+            </svg>
+            <ul>
+              <li>
+                Led a two-part market analysis to identify high-value decision-maker segments and diagnose friction
+                points in the customer journey, informing messaging strategy and conversion-focused improvements.
+              </li>
+              <li>
+                Analyzed decision-maker attributes and buying signals to determine which customer segments most valued
+                the client's Creative Intelligence approach, enabling more targeted messaging and outreach
+                prioritization.
+              </li>
+              <li>
+                Mapped the end-to-end customer journey from initial interest through purchase to identify key drop-off
+                points, surfacing opportunities to improve follow-up and lift conversion without increasing outreach
+                volume.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Market Analysis</li>
+              <li>Customer Journey</li>
+              <li>Research</li>
+              <li>Strategy</li>
+            </ul>
+          </article>
+
+          <article class="paper project reveal reveal-right" style="--reveal-delay: 120ms">
+            <p class="cursive project-meta">Python · December 2025</p>
+            <h3>User Info Collector CLI</h3>
+            <div class="terminal">
+              <p class="prompt">sarah@sketchbook ~ % python user_info.py</p>
+              <p><span class="key">name:</span> Sarah</p>
+              <p><span class="key">role:</span> student</p>
+              <p><span class="key">status:</span> collecting ideas…</p>
+              <p>saved. next prompt ▍</p>
+            </div>
+            <ul>
+              <li>
+                Created a command-line application to gather and display user information as part of hands-on Python
+                practice.
+              </li>
+              <li>
+                Strengthened understanding of user input, data storage, and program flow using core Python concepts.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python</li>
+              <li>CLI</li>
+              <li>Programming</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">What’s in the Kit</p>
+          <h2 class="section-title">My Digital Tools</h2>
+        </header>
+        <div class="skills-grid">
+          <article class="paper skill-card reveal">
+            <h3>Programming</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Racket</li>
+            </ul>
+          </article>
+          <article class="paper skill-card reveal" style="--reveal-delay: 80ms">
+            <ul class="skill-list">
+              <li>VS Code</li>
+              <li>Microsoft Excel</li>
+              <li>Replit</li>
+              <li>PyCharm</li>
+              <li>DrRacket</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">for the inbox</p>
+          <h2 class="section-title">Want the formal version?</h2>
+        </header>
+        <p class="lede reveal">Here's the polished, one-page version of everything I've been working on.</p>
+        <div class="resume-actions reveal" style="--reveal-delay: 90ms">
+          <a class="btn btn-primary" href="/Sarah-Khan-Resume.pdf" target="_blank" rel="noreferrer">View Résumé</a>
+          <a class="btn btn-secondary" href="/Sarah-Khan-Resume.pdf" download="Sarah-Khan-Resume.pdf">Download Résumé</a>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <header class="section-head reveal">
+          <p class="cursive eyebrow">a note for you</p>
+          <h2 class="section-title">Let's make something together.</h2>
+        </header>
+        <p class="lede reveal">
+          I'm always interested in learning, building, and connecting with people working on interesting things.
+        </p>
+        <div class="contact-grid">
+          <ul class="contact-list reveal reveal-left">
+            <li>
+              <span class="cursive">Email</span>
+              <a href="mailto:sa29khan@uwaterloo.ca">sa29khan@uwaterloo.ca</a>
+            </li>
+            <li>
+              <span class="cursive">Phone</span>
+              <a href="tel:+14372203655">(437) 220-3655</a>
+            </li>
+            <li>
+              <span class="cursive">LinkedIn</span>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </li>
+          </ul>
+          <form class="paper note-form reveal reveal-right" id="contact-form" style="--reveal-delay: 100ms">
+            <p class="cursive">a small note</p>
+            <label>
+              Name
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner reveal">
+        <div class="footer-brand">
+          <span class="yarn" aria-hidden="true"></span>
+          <div>
+            <strong>Sarah Khan</strong>
+            <p class="cursive">Built with curiosity, creativity, and code.</p>
+          </div>
+        </div>
+        <p class="copyright">© 2026 Sarah Khan</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/mount-list.jsx"></script>
+  </body>
+</html>
