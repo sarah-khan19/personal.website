@@ -352,23 +352,18 @@ a {
   box-shadow: var(--shadow);
   border-radius: 4px;
 }
+
 .about-card {
-  position: relative;
-  padding: 2rem 1.6rem 1.6rem;
   padding: 1.25rem 1.6rem 1.6rem;
 }
+
 .note-label {
-  position: absolute;
-  left: 1.1rem;
-  top: -0.85rem;
-  margin: 0;
   margin: 0 0 0.75rem;
   color: var(--blue);
-  font-size: 1.35rem;
   font-size: 1.4rem;
 }
-.stack p {
 
+.stack p {
   margin: 0 0 1rem;
   color: var(--navy-soft);
   line-height: 1.7;
